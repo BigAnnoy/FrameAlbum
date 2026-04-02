@@ -1,0 +1,75 @@
+# ── Python ──────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# ── Virtual environments ─────────────────────────────────
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# ── App config & database (user-specific, not shared) ────
+.config/
+*.db
+*.sqlite
+*.sqlite3
+
+# ── Thumbnail cache ──────────────────────────────────────
+.thumbnails/
+thumbnails/
+
+# ── Photo organizer records ──────────────────────────────
+.photo_organizer.json
+
+# ── Test data (contains real photos, do not commit) ──────
+test_data/
+
+# ── Test artifacts ─────────────────────────────────────────
+htmlcov/
+.coverage
+.pytest_cache/
+.tox/
+*.cover
+
+# ── Reports (generated locally) ─────────────────────────────
+*测试报告*
+*项目分析报告*
+*.report
+
+# ── FFmpeg binaries (large, platform-specific) ───────────
+backend/ffmpeg_binaries/
+
+# ── IDE / Editor ─────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+
+# ── Logs ─────────────────────────────────────────────────
+*.log
+logs/
+
+# ── Temp files ─────────────────────────────────────────────
+temp_*.py
+temp_*.sh
+*.bak
+.git_backup/
+
+# ── WorkBuddy internal ───────────────────────────────────
+.workbuddy/
+
+# ── OS ───────────────────────────────────────────────────
+desktop.ini
+ehthumbs.db
