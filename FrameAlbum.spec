@@ -57,15 +57,17 @@ excludes = [
     '_pydev_bundle', 'pydevd',
 ]
 
+ANACONDA_BASE = Path(sys.prefix) / 'Library' / 'bin'
+
 a = Analysis(
     [str(ROOT / 'src' / 'FrameAlbum.py')],
     pathex=[str(ROOT)],
     binaries=[
         (str(SQLITE3_DLL), '.'),
-        ('C:\\Users\\IT20240802\\anaconda3\\Library\\bin\\tk86t.dll', '.'),
-        ('C:\\Users\\IT20240802\\anaconda3\\Library\\bin\\tcl86t.dll', '.'),
-        ('C:\\Users\\IT20240802\\anaconda3\\Library\\bin\\ffi-7.dll', '.'),
-        ('C:\\Users\\IT20240802\\anaconda3\\Library\\bin\\ffi.dll', '.'),
+        (str(ANACONDA_BASE / 'tk86t.dll'), '.'),
+        (str(ANACONDA_BASE / 'tcl86t.dll'), '.'),
+        (str(ANACONDA_BASE / 'ffi-7.dll'), '.'),
+        (str(ANACONDA_BASE / 'ffi.dll'), '.'),
     ] if SQLITE3_DLL.exists() else [],
     datas=datas,
     hiddenimports=hiddenimports,
