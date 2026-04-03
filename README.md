@@ -1,4 +1,4 @@
-<p align="center"># 📷 FrameAlbum</p>
+<p align="center"> 📷 FrameAlbum</p>
 <p align="center">
 本地照片管理器 · 隐私零泄露 · 按日期自动整理</p>
 
