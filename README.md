@@ -1,8 +1,8 @@
-# 📷 FrameAlbum
+<p align="center"># 📷 FrameAlbum
 
 本地照片管理器 · 隐私零泄露 · 按日期自动整理
 
-<p align="center">
+
   <img src="https://img.shields.io/badge/版本-v0.1-gold?style=flat-square" />
   <img src="https://img.shields.io/badge/Python-3.8+-blue?style=flat-square&logo=python" />
   <img src="https://img.shields.io/badge/PyWebView-6.1+-green?style=flat-square" />
